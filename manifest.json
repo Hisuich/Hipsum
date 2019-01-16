@@ -2,7 +2,6 @@
     "name": "Hipsum",
     "version": "0.2",
     "description": "It's Hipsum",
-    "permissions": ["storage", "declarativeContent", "contextMenus"],
     "background": {
         "scripts": ["background.js"],
         "persistent": false
