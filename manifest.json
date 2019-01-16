@@ -1,13 +1,13 @@
 {
-    "name": "Start",
-    "version": "0.1",
-    "description": "Tutorial",
-    "permissions": ["storage", "declarativeContent"],
+    "name": "Hipsum",
+    "version": "0.2",
+    "description": "It's Hipsum",
+    "permissions": ["storage", "declarativeContent", "contextMenus"],
     "background": {
         "scripts": ["background.js"],
         "persistent": false
     },
-    "page_action": {
+    "browser_action": {
         "default_popup": "index.html"
     },
     "manifest_version": 2
