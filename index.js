@@ -246,7 +246,7 @@ const ends = [
     '!',
     '?',
     ')'
-]
+];
 
 function getRandomNumberFromMinToMax(max, min = 0) {
     console.log("max = ", max, "min = ", min);
@@ -317,6 +317,7 @@ function copyToClipboard(event) {
 }
 
 function init() {
+    console.log("hey");
     document.body.querySelector(".text-content").innerHTML += 
         createBlock(getSentenceWithWordAmount(1, 6)) +
         createBlock(getSentenceWithWordAmount(6, 12)) +
@@ -327,4 +328,7 @@ function init() {
         Object.values(document.getElementsByClassName('copy-button')).map(value => {
             value.addEventListener('click', copyToClipboard);
         });
+    console.log("I'm here");
 }
+
+init();
